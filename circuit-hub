@@ -1,0 +1,13 @@
+#
+# DeLorean hub circuit.
+#
+
+if (( $+commands[hub] )); then
+  eval "$(hub alias -s)"
+fi
+
+function circuit-hub {
+  # init only
+}
+
+return 0
