@@ -7,7 +7,7 @@ if (( $+commands[hub] )); then
 fi
 
 function circuit-hub {
-  # init only
+  # init only (do not remove)
 }
 
 return 0
